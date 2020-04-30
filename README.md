@@ -1,3 +1,12 @@
+# Changes to Max's layout
+
+Increases number of posts to 50 and change posts directory to `contents/posts` instead of `content/post`.
+
+```text
+{{ range first 50 .Site.RegularPages }}
+{{ if eq .Type "posts" }}
+```
+
 # HUGO.386
 HUGO.386 is a port of the [BOOTSTRA.386](//github.com/kristopolous/BOOTSTRA.386) theme. It has a cool MS-DOS feeling and is ready to be used for blogs. Despite its antique look, the theme is responsive and can be viewed on mobile devices.
 
